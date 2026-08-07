@@ -1,0 +1,51 @@
+# Autofilled by tools/new_project_layout/probe_disc.py from your legal dump.
+# Review before shipping. Runtime quirks / overlay seeds still need hand work.
+
+[game]
+name = "Marvel vs. Capcom: Clash of Super Heroes"
+id = "SLUS-01059"
+players = 2
+exe = "disc/SLUS_010.59"
+disc = "disc/Marvel vs. Capcom - Clash of Super Heroes (USA).cue"
+load_address = "0x80010000"
+entry_pc = "0x800106E0"
+text_size = "0x00141000"
+stack_base = "0x801FFFF0"
+
+# Digests are for data Track 01 (first BINARY FILE / TRACK 01).
+[prepare_disc]
+out_dir = "disc"
+bin_name = "Marvel vs. Capcom - Clash of Super Heroes (USA).bin"
+cue_name = "Marvel vs. Capcom - Clash of Super Heroes (USA).cue"
+boot_exe = "SLUS_010.59"
+known_sizes = [428212176]
+known_md5 = [
+  "ce6c6a8a1015e031fae6a9af11087c0a",
+]
+known_sha1 = [
+  "b0301419874638bd86689cfbbde6a901585587d0",
+]
+
+[recompiler]
+seeds = "seeds/ghidra_funcs.txt"
+out_dir = "generated"
+strict = true
+
+[runtime]
+window_title = "Marvel vs. Capcom: Clash of Super Heroes Recompiled"
+memcard_dir = "saves"
+
+[video]
+renderer = "opengl"
+aspect_ratio = "4:3"
+
+[controller]
+default_mode = "digital"
+allow_hybrid = false
+
+# Online mount gate: digests + track count + optional TOC fingerprint
+# (see docs/NETPLAY.md).
+[netplay]
+require_cue = true
+required_tracks = 1
+required_disc_fp = "10387d886d249bf6b8f30500f5ee6a96afa4ab6fd8a19435e8040c6a13ad7bfb"
