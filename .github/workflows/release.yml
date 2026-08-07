@@ -379,7 +379,8 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ needs.prepare.outputs.tag }}
-          name: Marvel vs. Capcom: Clash of Super Heroes  Recompiled ${{ needs.prepare.outputs.tag }}
+          # Quoted: title contains ':' (YAML mapping otherwise).
+          name: "Marvel vs. Capcom: Clash of Super Heroes Recompiled ${{ needs.prepare.outputs.tag }}"
           files: |
             dist/mccsh-*.zip
           generate_release_notes: true

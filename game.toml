@@ -45,6 +45,7 @@ allow_hybrid = false
 
 # Online mount gate: digests + track count + optional TOC fingerprint
 # (see docs/NETPLAY.md).
+multitap_analog = false
 [netplay]
 require_cue = true
 required_tracks = 1
