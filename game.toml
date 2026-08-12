@@ -2,28 +2,28 @@
 # Review before shipping. Runtime quirks / overlay seeds still need hand work.
 
 [game]
-name = "Marvel vs. Capcom: Clash of Super Heroes"
-id = "SLUS-01059"
+name = "Marvel vs. Capcom: Clash of Super Heroes Recomp"
+id = "SLUS-00793"
 players = 2
-exe = "disc/SLUS_010.59"
-disc = "disc/Marvel vs. Capcom - Clash of Super Heroes (USA).cue"
+exe = "disc/SLUS_007.93"
+disc = "disc/Marvel Super Heroes vs. Street Fighter (USA).cue"
 load_address = "0x80010000"
 entry_pc = "0x800106E0"
-text_size = "0x00141000"
+text_size = "0x001BD800"
 stack_base = "0x801FFFF0"
 
 # Digests are for data Track 01 (first BINARY FILE / TRACK 01).
 [prepare_disc]
 out_dir = "disc"
-bin_name = "Marvel vs. Capcom - Clash of Super Heroes (USA).bin"
-cue_name = "Marvel vs. Capcom - Clash of Super Heroes (USA).cue"
-boot_exe = "SLUS_010.59"
-known_sizes = [428212176]
+bin_name = "Marvel Super Heroes vs. Street Fighter (USA).bin"
+cue_name = "Marvel Super Heroes vs. Street Fighter (USA).cue"
+boot_exe = "SLUS_007.93"
+known_sizes = [552894048]
 known_md5 = [
-  "ce6c6a8a1015e031fae6a9af11087c0a",
+  "a182cf4649be619c78c0aeb172f5246b",
 ]
 known_sha1 = [
-  "b0301419874638bd86689cfbbde6a901585587d0",
+  "6e50ac0d4dfc5eaf2ddd0da3cabde19e0ec3721a",
 ]
 
 [recompiler]
@@ -32,7 +32,7 @@ out_dir = "generated"
 strict = true
 
 [runtime]
-window_title = "Marvel vs. Capcom: Clash of Super Heroes Recompiled"
+window_title = "Marvel vs. Capcom: Clash of Super Heroes Recomp Recompiled"
 memcard_dir = "saves"
 
 [video]
@@ -40,13 +40,11 @@ renderer = "opengl"
 aspect_ratio = "4:3"
 
 [controller]
-default_mode = "analog"
-allow_hybrid = false
+default_mode = "digital"
 
 # Online mount gate: digests + track count + optional TOC fingerprint
 # (see docs/NETPLAY.md).
-multitap_analog = true
 [netplay]
 require_cue = true
 required_tracks = 1
-required_disc_fp = "10387d886d249bf6b8f30500f5ee6a96afa4ab6fd8a19435e8040c6a13ad7bfb"
+required_disc_fp = "579351f3b92bf1b476436c0721e24e171f7100a84f98a5bd78456d97a94e5d9d"

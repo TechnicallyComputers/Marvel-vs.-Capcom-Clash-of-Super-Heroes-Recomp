@@ -1,39 +1,39 @@
 {
   "format_version": 1,
   "game": {
-    "name": "Marvel vs. Capcom: Clash of Super Heroes",
-    "id": "SLUS-01059",
-    "boot_exe": "SLUS_010.59"
+    "name": "Marvel vs. Capcom: Clash of Super Heroes Recomp",
+    "id": "SLUS-00793",
+    "boot_exe": "SLUS_007.93"
   },
   "marketing": {
-    "description": "This PlayStation port differs from the arcade version, in that players are unable to switch characters on-the-fly, reducing the secondary character to an assist role only. Significantly, this removes the tag team aspect of the original. It instead offers a \"Cross over\" mode where each player chooses one character, and the second character for each team is a mirror of the opponent's pick. In this mode, the players may switch characters at will, but the teams must always be identical. This compromise is most likely necessitated by the console's small memory size, as the use of identical teams alleviates the memory requirements.",
-    "publisher": "Capcom",
-    "year": "1999",
-    "region": "USA",
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "",
     "players": 2
   },
   "rom_identity": {
-    "cue_name": "Marvel vs. Capcom - Clash of Super Heroes (USA).cue",
-    "bin_name": "Marvel vs. Capcom - Clash of Super Heroes (USA).bin",
+    "cue_name": "Marvel Super Heroes vs. Street Fighter (USA).cue",
+    "bin_name": "Marvel Super Heroes vs. Street Fighter (USA).bin",
     "track_counts": [
       1
     ],
     "require_cue": true,
     "data_track": {
-      "size": 428212176,
-      "md5": "ce6c6a8a1015e031fae6a9af11087c0a",
-      "sha1": "b0301419874638bd86689cfbbde6a901585587d0"
+      "size": 552894048,
+      "md5": "a182cf4649be619c78c0aeb172f5246b",
+      "sha1": "6e50ac0d4dfc5eaf2ddd0da3cabde19e0ec3721a"
     },
-    "disc_fp": "10387d886d249bf6b8f30500f5ee6a96afa4ab6fd8a19435e8040c6a13ad7bfb"
+    "disc_fp": "579351f3b92bf1b476436c0721e24e171f7100a84f98a5bd78456d97a94e5d9d"
   },
   "exe": {
     "load_address": "0x80010000",
     "entry_pc": "0x800106E0",
-    "text_size": "0x00141000",
+    "text_size": "0x001BD800",
     "stack_base": "0x801FFFF0"
   },
   "seeds": {
-    "count": 1279,
+    "count": 1094,
     "source": "boot_exe_jal"
   },
   "warnings": [
