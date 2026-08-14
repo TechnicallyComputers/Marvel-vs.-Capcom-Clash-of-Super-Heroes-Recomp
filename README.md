@@ -4,11 +4,6 @@
 [![GitHub downloads (all assets, all releases)](https://img.shields.io/github/downloads/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/total)](https://github.com/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/releases)
 [![GitHub downloads (latest release)](https://img.shields.io/github/downloads/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/latest/total)](https://github.com/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/releases/latest)
 [![GitHub release](https://img.shields.io/github/v/release/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp)](https://github.com/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/releases/latest)
-
-[![Linux](https://img.shields.io/github/downloads/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/latest/mccsh-%2A-linux-x64.zip)](https://github.com/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/releases/latest)
-[![Windows](https://img.shields.io/github/downloads/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/latest/mccsh-%2A-windows-x64.zip)](https://github.com/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/releases/latest)
-[![macOS arm64](https://img.shields.io/github/downloads/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/latest/mccsh-%2A-macos-arm64.zip)](https://github.com/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/releases/latest)
-[![macOS x64](https://img.shields.io/github/downloads/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/latest/mccsh-%2A-macos-x64.zip)](https://github.com/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/releases/latest)
 <!-- /retcomm-readme-metrics -->
 
 Static recompilation of **Marvel vs. Capcom: Clash of Super Heroes** built on
