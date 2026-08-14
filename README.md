@@ -1,9 +1,9 @@
 # Marvel vs. Capcom: Clash of Super Heroes  Recompiled
 
 <!-- retcomm-readme-metrics -->
-[![GitHub downloads (all assets, all releases)](https://img.shields.io/github/downloads/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/total)](https://github.com/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/releases)
-[![GitHub downloads (latest release)](https://img.shields.io/github/downloads/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/latest/total)](https://github.com/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/releases/latest)
-[![GitHub release](https://img.shields.io/github/v/release/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp)](https://github.com/TechnicallyComputers/Marvel vs. Capcom: Clash of Super Heroes Recomp/releases/latest)
+[![GitHub downloads (all assets, all releases)](https://img.shields.io/github/downloads/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp/total)](https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp/releases)
+[![GitHub downloads (latest release)](https://img.shields.io/github/downloads/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp/latest/total)](https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp/releases/latest)
+[![GitHub release](https://img.shields.io/github/v/release/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp)](https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp/releases/latest)
 <!-- /retcomm-readme-metrics -->
 
 Static recompilation of **Marvel vs. Capcom: Clash of Super Heroes** built on
