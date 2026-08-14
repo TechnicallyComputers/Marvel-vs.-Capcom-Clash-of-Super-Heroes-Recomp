@@ -6,6 +6,12 @@
 [![GitHub release](https://img.shields.io/github/v/release/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp)](https://github.com/TechnicallyComputers/Marvel-vs.-Capcom-Clash-of-Super-Heroes-Recomp/releases/latest)
 <!-- /retcomm-readme-metrics -->
 
+<!-- retcomm-readme-boxart -->
+<p align="center">
+  <img src="launcher_assets/img/boxart.png" alt="Marvel vs. Capcom: Clash of Super Heroes box art" width="280">
+</p>
+<!-- /retcomm-readme-boxart -->
+
 Static recompilation of **Marvel vs. Capcom: Clash of Super Heroes** built on
 [psxrecomp](https://github.com/mstan/psxrecomp) and
 [recomp-ui](https://github.com/mstan/recomp-ui).
