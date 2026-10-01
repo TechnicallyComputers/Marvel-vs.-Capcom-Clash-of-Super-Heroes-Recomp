@@ -35,6 +35,9 @@ out_dir = "generated"
 strict = true
 
 [runtime]
+# Enable the overlay loader: the shipped static shard / bundled overlay
+# toolchain turn streamed overlays native instead of running them interpreted.
+overlay_cache = true
 window_title = "Marvel vs. Capcom: Clash of Super Heroes Recomp Recompiled"
 memcard_dir = "saves"
 
